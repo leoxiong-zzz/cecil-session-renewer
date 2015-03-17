@@ -1,5 +1,7 @@
 # CECIL Session Renewer
 
+[Install here from the Chrome Web Store](https://chrome.google.com/webstore/detail/mkalfdcnikoiclencahbhebieiddolok)
+
 This is a Google Chrome extension that will automatically renew your CECIL session when you are 'inactive'.
 
 ### Disclaimer
