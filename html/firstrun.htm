@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!</title>
+    <link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css"/>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div class="container"><h1 id="cecil-session-renewer">CECIL Session Renewer</h1>
+
+    <p>This is a Google Chrome extension that will automatically renew your CECIL session when you are ‘inactive’.</p>
+
+
+    <h3 id="disclaimer">Disclaimer</h3>
+
+    <p><strong>This extension is in no way affiliated with The University of Auckland. Use at your own risk.</strong>
+    </p>
+
+    <p>By using this extension, you accept that I (Leo Xiong) will not be held responsible for any (if any) violations
+        of CECIL’s and/or The University of Auckland’s Terms of Service which may result in unwanted consequences. You
+        are aware that you are disabling a security feature implemented to prevent unauthorized access to your account
+        in the event that it is unintentionally left open on a public computer, and this extension will make your
+        Auckland University account more vulnerable.</p>
+
+    <h3 id="how-it-works">How it works</h3>
+
+    <p><em>It’s a bit of a hack™</em></p>
+
+    <p>The Chrome extension intercepts requests to <a href="https://cecil.auckland.ac.nz/Scripts/SessionAlert.js?">SessionAlert.js</a>
+        and redirects it to a modified version included in the extension. The modified <a
+                href="https://cecil.auckland.ac.nz/Scripts/SessionAlert.js">SessionAlert.js</a> bypasses the alert
+        dialog and continues onto sending an XHR request to renew your session.</p>
+
+
+    <h3 id="what-this-does">What this does</h3>
+
+    <ul>
+        <li>Avoid seeing the ‘Your session will expire in 5 minutes…’ dialog every 55 minutes by renewing the session
+            for you.
+        </li>
+    </ul>
+
+
+    <h3 id="what-this-doesnt-do">What this doesn’t do</h3>
+
+    <ul>
+        <li><strong>Keep your session if your computer is disconnected from the internet.</strong> This means if your
+            computer is not able to send things over the internet, you will be logged out.
+        </li>
+        <li>Steal credentials.</li>
+        <li>Log key strokes.</li>
+        <li>Your laundry.</li>
+    </ul>
+
+
+    <h3 id="license">License</h3>
+
+    <p><a href="http://dev.bukkit.org/licenses/3084-idgaf-license/">IDGAF License</a>, <a href="https://leoxiong.com">Leo
+        Xiong</a>.</p>
+
+    <p>You may report any bugs or submit feature requests to me (Leo Xiong).</p></div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "CECIL Session Renewer",
+  "description": "Automatically renews the session.",
+  "version": "0.1",
+  "background": {
+    "scripts": ["scripts/background.js"]
+  },
+  "permissions": [
+    "https://cecil.auckland.ac.nz/",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "web_accessible_resources": [
+    "scripts/session_alert.js",
+    "html/firstrun.htm"
+  ]
+}
