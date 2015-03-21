@@ -14,7 +14,7 @@ By using this extension, you accept that I (Leo Xiong) will not be held responsi
 
 _It's a bit of a hack™_
 
-The Chrome extension intercepts requests to [SessionAlert.js](https://cecil.auckland.ac.nz/Scripts/SessionAlert.js?) and redirects it to a modified version included in the extension. The modified [SessionAlert.js](https://cecil.auckland.ac.nz/Scripts/SessionAlert.js) bypasses the alert dialog and continues onto sending an XHR request to renew your session.
+The Chrome extension intercepts requests to [SessionAlert.js](https://cecil.auckland.ac.nz/Scripts/SessionAlert.js?) and redirects it to a modified version included in the extension. The modified [SessionAlert.js](https://github.com/leoxiong/cecil-session-renewer/blob/master/scripts/session_alert.js) bypasses the alert dialog and continues onto sending an XHR request to renew your session.
 
 ### What this does
 
